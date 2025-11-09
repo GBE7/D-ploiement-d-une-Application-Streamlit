@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [project]
 name = "mlops-dah"
 version = "0.1.0"
@@ -22,3 +23,29 @@ package-mode = false
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+=======
+[project]
+name = "mlops-dah"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "GBE7",email = "veh.gbe24@inphb.ci"}
+]
+
+requires-python = ">=3.13"
+dependencies = [
+    "streamlit (>=1.51.0,<2.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "matplotlib (>=3.10.7,<4.0.0)"
+]
+[tool.poetry]
+packages = [
+    { include = "mlops_dah" }
+]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+>>>>>>> 9ac566eb9bba3a2aab10c7ef9489302aa2220a75
